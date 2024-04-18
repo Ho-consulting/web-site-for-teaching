@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./media/images/favicon.ico" />
+    <title>Halim | Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="./css/app.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="row">
+        <div class="col-lg-3 pt-5 zone_grey"> 
+                <div class="text-center pt-3">
+                        <img class='avatar_img mb-3' src="./media/images/IMG_20.jpg" alt=""/>
+                        <h2><b>
+                            Halim <br/>
+                            OULAD-MANSOUR
+                        </b></h2>
+                        <h4 class="mt-3">
+                            Consultant IT
+                        </h4>
+                </div>
+
+                <div class="p-3">
+
+                    <div class="row m-3"><a href="./index.html" type="button" class="btn btn-dark w-100"><b>À propos de l'enseignant</b></a></div>
+                    <div class="row m-3"><a href="./index_2.html" type="button" class="btn btn-outline-dark w-100"><b>Enseignement</b></a></div>
+
+
+                    <footer class="zone_grey">
+                        <div class="row text-center mt-5 mb-3">
+                                <div class="col-4"></div>
+                                <div class="col-2">
+                                    <a href="https://www.linkedin.com/in/abdelhalim-oulad-mansour/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                                    </a> 
+                                </div>
+                                <div class="col-2">
+                                    <a href="https://github.com/Ha-Lim96?tab=repositories" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"/></svg>
+                                    </a>
+                                </div>
+                                <div class="col-4"></div>
+                        </div>
+                        <div class="row text-center mb-5">
+                            <div class="mb-5">
+                                <p><b>Copyright - 2024</b></p>
+                                <p class="mb-5"><small><b>Designed & developed by Halim OULAD MANSOUR</b></small></p>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+        </div>
+
+        <!-- ============================================ Bouttons ============================================ -->
+
+        <div class="col-lg-9 ">
+            <div class="row text-center">
+                <div class="row text-center zone_grey pt-3 mx-auto">
+                    <p class="h3"><b>À propos de l'enseignant</b>
+                        <p class="font-secondary-bold" id="titre_experience"><b>Expériences</b></p>
+                        <p class="font-secondary-bold" id="titre_education" style="display:none;"><b>Education</b></p>
+                        <p class="font-secondary-bold" id="titre_competences" style="display:none;"><b>Compétences</b></p>
+                </div>
+                <div class="row text-center mx-auto">
+                    <div class="col-md-4 mt-3"><a href="#" id="btn_experieces" type="button" class="btn btn-dark w-100"><b>Expériences</b></a></div>
+                    <div class="col-md-4 mt-3"><a href="#" id="btn_formations" type="button" class="btn btn-outline-dark w-100"><b>Education</b></a></div>
+                    <div class="col-md-4 mt-3"><a href="#" id="btn_competences" type="button" class="btn btn-outline-dark w-100"><b>Compétences</b></a></div>
+                </div>
+            </div>
+
+        <!-- ============================================ End bouttons ============================================ -->
+            
+
+
+  <div class="row p-3">  <!-- Le row de toutes les onglets  -->
+    
+   <!-- ============================================ L'onglet expériences ============================================ -->
+
+                <div id="experiences">
+                    <div class="row mx-auto">
+                        <div class="col-md-5 p-3 zone_grey rounded">
+                            <div class="text-center"><b class="h6"><b><b>Développeur Fullstack (PHP/Symfony) </b></b></b> 
+                                <small><p class="font-secondary-bold"><b>Octobre 2022 - Aujourd'hui<br>
+                                  Foodity - Lille</b></p></small>
+                                <div class="text-center mx-auto">
+                                    <img class="mt-2 circle" src="./media/images/symfony_black_03.png" alt="" style="height:32px ; width:42px ;">
+                                    <img class="mt-2 circle" src="./media/images/js_logo.png" alt="" style="height:32px ; width:42px ;">
+                                    <img class="mt-2 circle" src="./media/images/BT_logo.png" alt="" style="height:32px ; width:42px ;">
+                                    <img class="mt-2 circle" src="./media/images/html_logo.png" alt="" style="height:32px ; width:42px ;">
+                                    <img class="mt-2 circle" src="./media/images/CSS3_logo.png" alt="" style="height:32px ; width:42px ;">
+                                    <img class="mt-2 circle" src="./media/images/Git-Icon.png" alt="" style="height:32px ; width:42px ;">
+                                    <img class="mt-2 circle" src="./media/images/aws_logo.png" alt="" style="height:32px ; width:42px ;">
+                                    <img class="mt-2 circle" src="./media/images/ec2_logo.png" alt="" style="height:32px ; width:42px ;">
+                                </div>
+                                <img class="m-3 rounded" src="./media/images/Foodity.png" alt="" style="height:90px ; width:160px ;">
+                            </div>
+                            <div class="text-center">
+                                
+                                <a href="./html/experiences/experience1.html" type="button" class="btn btn-dark mt-3" >
+                                    <b>En savoir plus</b>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mouse3-fill" viewBox="0 0 16 16">
+                                        <path d="M8.5.069A15.328 15.328 0 0 0 7 0c-.593 0-1.104.157-1.527.463-.418.302-.717.726-.93 1.208-.386.873-.522 2.01-.54 3.206l4.497 1V.069zM3.71 5.836 3.381 6A2.5 2.5 0 0 0 2 8.236v2.576C2 13.659 4.22 16 7 16h2c2.78 0 5-2.342 5-5.188V8.123l-9-2v.003l.008.353c.007.3.023.715.053 1.175.063.937.186 2.005.413 2.688a.5.5 0 1 1-.948.316c-.273-.817-.4-2-.462-2.937A30.16 30.16 0 0 1 4 6.003c0-.034.003-.067.01-.1l-.3-.067zM14 7.1V5.187c0-1.13-.272-2.044-.748-2.772-.474-.726-1.13-1.235-1.849-1.59A7.495 7.495 0 0 0 9.5.212v5.887l4.5 1z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-1"></div>
+
+                        <div class="col-md-5 p-3 zone_grey rounded p-3">
+                            <div class="text-center"><b class="h6"><b><b>Développeur JAVA (Alternance)</b></b></b>
+                                <small><p class="font-secondary-bold"><b>Octobre 2021 - Octobre 2022<br>
+                                Ht-consulting - Wattrelos</b></p></small>
+                                <div class="text-center mx-auto">
+                                    <img class="mt-2 circle" src="./media/images/java_logo.png" alt="" style="height:32px ; width:42px ;">
+                                   <img class="mt-2 circle" src="./media/images/springboot_logo.png" alt="" style="height:32px ; width:42px ;">
+                                   <img class="mt-2 circle" src="./media/images/Git-Icon.png" alt="" style="height:32px ; width:42px ;">
+                                   <img class="mt-2 circle" src="./media/images/postman.png" alt="" style="height:32px ; width:42px ;">
+                                </div>
+                                <img class="m-3 rounded" src="./media/images/logo-ht.png" alt="" style="height:90px ; width:180px ;">
+                            </div>
+                            <div class="text-center">
+                                <a href="./html/experiences/experience3.html" type="button" class="btn btn-dark mt-3">
+                                    <b>En savoir plus</b>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mouse3-fill" viewBox="0 0 16 16">
+                                        <path d="M8.5.069A15.328 15.328 0 0 0 7 0c-.593 0-1.104.157-1.527.463-.418.302-.717.726-.93 1.208-.386.873-.522 2.01-.54 3.206l4.497 1V.069zM3.71 5.836 3.381 6A2.5 2.5 0 0 0 2 8.236v2.576C2 13.659 4.22 16 7 16h2c2.78 0 5-2.342 5-5.188V8.123l-9-2v.003l.008.353c.007.3.023.715.053 1.175.063.937.186 2.005.413 2.688a.5.5 0 1 1-.948.316c-.273-.817-.4-2-.462-2.937A30.16 30.16 0 0 1 4 6.003c0-.034.003-.067.01-.1l-.3-.067zM14 7.1V5.187c0-1.13-.272-2.044-.748-2.772-.474-.726-1.13-1.235-1.849-1.59A7.495 7.495 0 0 0 9.5.212v5.887l4.5 1z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mx-auto mt-3">
+                        <div class="col-md-5 p-3 zone_grey rounded">
+                            <div class="text-center"><b class="h6"><b><b>Analyste développeur ERP (Stage)</b></b></b>
+                                <small><p class="font-secondary-bold"><b>Mai 2021 - Septembre 2021<br>
+                                  Clésence (Action logement) - Saint Quentin
+                                </b></p></small>
+                                <div class="text-center mx-auto">
+                                    <img class="mt-2 circle" src="./media/images/Uniface_Logo.jpeg" alt="" style="height:32px ; width:61px ;">
+                                    <img class="mt-2 circle" src="./media/images/PHP-logo.png" alt="" style="height:32px ; width:62px ;">
+                                    <img class="mt-2 circle" src="./media/images/html_logo.png" alt="" style="height:32px ; width:50px ;">
+                                    <img class="mt-2 circle" src="./media/images/CSS3_logo.png" alt="" style="height:32px ; width:50px ;">
+                                </div>
+                                <img class="m-3 rounded" src="./media/images/logo_clesence.png" alt="" style="height:90px ; width:232px ;">
+                            </div>
+                            <div class="text-center">
+                                <a href="./html/experiences/experience4.html" type="button" class="btn btn-dark mt-3">
+                                    <b>En savoir plus</b>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mouse3-fill" viewBox="0 0 16 16">
+                                        <path d="M8.5.069A15.328 15.328 0 0 0 7 0c-.593 0-1.104.157-1.527.463-.418.302-.717.726-.93 1.208-.386.873-.522 2.01-.54 3.206l4.497 1V.069zM3.71 5.836 3.381 6A2.5 2.5 0 0 0 2 8.236v2.576C2 13.659 4.22 16 7 16h2c2.78 0 5-2.342 5-5.188V8.123l-9-2v.003l.008.353c.007.3.023.715.053 1.175.063.937.186 2.005.413 2.688a.5.5 0 1 1-.948.316c-.273-.817-.4-2-.462-2.937A30.16 30.16 0 0 1 4 6.003c0-.034.003-.067.01-.1l-.3-.067zM14 7.1V5.187c0-1.13-.272-2.044-.748-2.772-.474-.726-1.13-1.235-1.849-1.59A7.495 7.495 0 0 0 9.5.212v5.887l4.5 1z"/>
+                                    </svg>
+                                  </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-1"></div>    
+                    </div>
+                </div>
+
+    <!-- ============================================ Fin de l'onglet Expériences ============================================ -->
+
+
+
+    <!-- ============================================ L'onglet Education ============================================ -->
+
+                <div id="formations" style="display:none;">
+                    <b class="h5"> <b>Cursus Post-Bac</b> </b>
+                    
+                    <div class="row p-3">
+                        <div class="col-lg-5 p-3 zone_grey rounded">
+                            <div class="row">
+                                <div class="col-sm-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                                        <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+                                        <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+                                    </svg>
+                                </div>
+                                <div class="col-sm-11"><p><b>Master MIAGE en alternance (SI ouverts) </b></p></div>
+                            </div>
+                            
+                            <p class="font-secondary-bold">Université de Picardie Jules Verne.<br>
+                            Amiens - France.<br>
+                            Septembre 2020 - Septembre 2022.</p>
+                            <div class="row">
+                                <div class="col-6">
+                                <a class="btn btn-dark w-100" href="https://miage-amiens.fr/master-miage-amiens/" target="_blank"><b>Contenu</b></a> 
+                                </div>
+
+                                <div class="col-6">
+                                <button class="btn btn-dark w-100" data-toggle="modal" data-target="#ModalsMasterMiage"><b>Compétences</b></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-1"></div>
+
+                        <div class="col-lg-5 p-3 zone_grey rounded">
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                                        <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+                                        <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+                                    </svg>
+                                </div>
+                                <div class="col-md-11"><p><b>Licence informatique (Parcours Info)</b></p></div>
+                            </div>
+                            
+                            <p class="font-secondary-bold">Université du Littoral Côte d'Opale.<br>
+                            Calais - France.<br>
+                            Septembre 2018 - Juin 2020.</p>
+
+                            <div class="row">
+                                <div class="col-6">
+                                <a class="btn btn-dark w-100" href="https://www.univ-littoral.fr/formation/offre-de-formation/licences/licence-informatique/" target="_blank"><b>Contenu</b></a> 
+                                </div>
+
+                                <div class="col-6">
+                                <button class="btn btn-dark w-100" data-toggle="modal" data-target="#ModalsLicenceInfo"><b>Compétences</b></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="formations" class="mt-5">
+                        <b class="h5"> <b>Certificats / E-learning</b> </b>
+
+                        <div class="row p-3">
+                            <div class="col-md-5 zone_grey rounded">
+                                <div class="text-center mt-3"><b class="h6"><b><b>ETL (Talend)</b></b></b>
+                                    <small><p class="font-secondary-bold"><b>
+                                    Udemy - 2023</b></p></small>
+                                    <div class="text-center mx-auto">
+                                        <img class="circle" src="./media/images/TLND_BIG.png" alt="" style="height:32px ; width:90px ;"> &nbsp&nbsp
+                                        <img class="rounded" src="./media/images/Udemy_logo.png" alt="" style="height:90px ; width:90px ;">
+                                    </div>
+                                </div>
+                            
+                            <div class="text-center mt-3 mb-3">  
+                                <button data-toggle="modal" data-target="#modalDetail2" type="button" class="btn btn-dark ">
+                                    <b>Détails</b>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mouse3-fill" viewBox="0 0 16 16">
+                                        <path d="M8.5.069A15.328 15.328 0 0 0 7 0c-.593 0-1.104.157-1.527.463-.418.302-.717.726-.93 1.208-.386.873-.522 2.01-.54 3.206l4.497 1V.069zM3.71 5.836 3.381 6A2.5 2.5 0 0 0 2 8.236v2.576C2 13.659 4.22 16 7 16h2c2.78 0 5-2.342 5-5.188V8.123l-9-2v.003l.008.353c.007.3.023.715.053 1.175.063.937.186 2.005.413 2.688a.5.5 0 1 1-.948.316c-.273-.817-.4-2-.462-2.937A30.16 30.16 0 0 1 4 6.003c0-.034.003-.067.01-.1l-.3-.067zM14 7.1V5.187c0-1.13-.272-2.044-.748-2.772-.474-.726-1.13-1.235-1.849-1.59A7.495 7.495 0 0 0 9.5.212v5.887l4.5 1z"/>
+                                    </svg>
+                                </button>
+                                <a href="./media/Udemy_certif_talend.jpeg" target="_blank" class="btn btn-dark">
+                                    <b>Certificat</b>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                                        <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+                                        <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-1"></div>
+                        </div>
+                    </div>
+                </div>
+
+    <!-- ============================================ Fin de l'onglet Education ============================================ -->
+
+
+
+
+
+    <!-- ============================================ L'onglet Compétences ============================================ -->
+
+            <div id="competences" style="display:none;">
+                                
+                
+            <!-- ============================ Partie savoir ============================ -->
+                    <div class="row mx-auto mt-3">
+                        &nbsp
+                        <div class="row">
+                            <div class="zone_grey rounded">
+                                <div class="mt-3 mb-3"><b class="h5"> <b>Savoir (Connaissance)</b></b></div>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <b id="detail_competences" data-toggle="modal" data-target="#modalDetail15"><p class="mt-3 font-secondary-bold"><small><b>Java / Spring Boot</b></small></p></b>
+                                                </div>
+
+                                                <div class="col-md-8">
+                                                 <!--
+                                                    <div class="progress mt-4" role="progressbar" aria-label="Animated striped example" aria-valuenow="39" aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%">Efficace </div>
+                                                    </div>
+                                                 -->   
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <b id="detail_competences" data-toggle="modal" data-target="#modalDetailPhpSymfony"><p class="mt-3 font-secondary-bold"><small><b>PHP / Symfony</b></small></p></b>
+                                                </div>
+
+                                                <div class="col-md-8">
+                                                    <!--
+                                                    <div class="progress mt-4" role="progressbar" aria-label="Animated striped example" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%">Expert </div>
+                                                    </div>
+                                                    --> 
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <b id="detail_competences" data-toggle="modal" data-target="#modalDetailJS"><p class="mt-3 font-secondary-bold"><small><b>Javascript</b></small></p></b>
+                                                </div>
+
+                                                <div class="col-md-8">
+                                                    <!--
+                                                    <div class="progress mt-4" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 79%">Efficace </div>
+                                                    </div>
+                                                    -->
+                                                </div>
+                                            </div>
+                                        
+
+                                            <div class="row">
+                                            <div class="col-md-4">
+                                                <b id="detail_competences" data-toggle="modal" data-target="#modalDetailSQL"><p class="mt-3 font-secondary-bold"><small><b>SQL</b></small></p></b>
+                                            </div>
+
+                                            <div class="col-md-8">
+                                                <!--
+                                                <div class="progress mt-4" role="progressbar" aria-label="Animated striped example" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100">
+                                                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%">Expert </div>
+                                                </div>
+                                                -->
+                                            </div>
+                                        </div>  
+
+                                        
+                                        
+                                        <div class="row mb-3">
+                                            <div class="col-md-4">
+                                                <b id="detail_competences" data-toggle="modal" data-target="#modalDetail24"><p class="mt-3 font-secondary-bold"><small><b>Git</b></small></p></b>
+                                            </div>
+
+                                            <div class="col-md-8">
+                                                <!--
+                                                <div class="progress mt-4" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 79%">efficace </div>
+                                                </div>
+                                                -->
+                                            </div>
+                                        </div>
+
+                                        </div>
+
+                                        <div class="col-md-1 text-center">
+                                            <span class="vertical-line"></span>
+                                        </div>
+
+                                        <div class="col-md-5">
+
+                                            <div class="row">
+
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <b id="detail_competences" data-toggle="modal" data-target="#modalDetail21"><p class="mt-3 font-secondary-bold"><small><b>HTML</b></small></p></b>
+                                                    </div>
+
+                                                    <div class="col-md-8">
+                                                        <!--
+                                                        <div class="progress mt-4" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%">Expert </div>
+                                                        </div>
+                                                        -->
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <b id="detail_competences" data-toggle="modal" data-target="#modalDetail21"><p class="mt-3 font-secondary-bold"><small><b>CSS / Bootstrap</b></small></p></b>
+                                                    </div>
+
+                                                    <div class="col-md-8">
+                                                        <!--
+                                                        <div class="progress mt-4" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%">Efficace </div>
+                                                        </div>
+                                                        -->
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <b id="detail_competences" data-toggle="modal" data-target="#modalDetail23"><p class="mt-3 font-secondary-bold"><small><b>Méthode Scrum</b></small></p></b>
+                                                    </div>
+
+                                                    <div class="col-md-8">
+                                                        <!--
+                                                        <div class="progress mt-4" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%">Efficace </div>
+                                                        </div>
+                                                        -->
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <b id="detail_competences" data-toggle="modal" data-target="#modalDetail23"><p class="mt-3 font-secondary-bold"><small><b>Trello / Jira</b></small></p></b>
+                                                    </div>
+
+                                                    <div class="col-md-8">
+                                                        <!--
+                                                        <div class="progress mt-4" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%">Efficace </div>
+                                                        </div>
+                                                        -->
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <b id="detail_competences" data-toggle="modal" data-target="#modalDetailSQL"><p class="mt-3 font-secondary-bold"><small><b>Talend</b></small></p></b>
+                                                    </div>
+
+                                                    <div class="col-md-8">
+                                                        <!--
+                                                        <div class="progress mt-4" role="progressbar" aria-label="Animated striped example" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 35%">Débutant </div>
+                                                        </div>
+                                                        -->
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============================ Fin de la partie savoir ============================ -->
+
+                
+                    
+                    
+                    <div class="row  p-3">
+                        <div class="zone_grey rounded">
+                            <div class="mt-3 mb-3"><b class="h5"> <b>Langues</b> </b></div>
+                            <div class="row m-2">
+                                <div class="col-sm-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                                    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                                    </svg>
+                                </div>
+                                <div class="col-sm-2 font-secondary-bold">Français</div>
+                                <div class="col-sm-4 font-secondary-bold"> Bilingue</div>
+                            </div>
+                            <div class="row m-2">
+                                <div class="col-sm-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"                   fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                                    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                                    </svg>
+                                </div>
+                                <div class="col-sm-2 font-secondary-bold">Anglais</div>
+                                <div class="col-sm-4 font-secondary-bold">Intermédiaire</div>
+                            </div>
+                            <div class="row m-2 mb-4">
+                                <div class="col-sm-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"                   fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                                    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                                    </svg>
+                                </div>
+                                <div class="col-sm-2 font-secondary-bold">Arabe</div>
+                                <div class="col-sm-4 font-secondary-bold">Langue maternelle</div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 ">
+                        </div>
+                    </div>
+                </div>
+    <!-- ============================================ Fin de l'onglet Compétences ============================================ -->
+
+            </div>    
+          </div>
+      </div>
+
+
+
+
+          <!-- ******************************* Modals pour les compétences tirées des formations ******************************* -->
+
+    <!-- Master MIAGE -->
+    <div class="modal fade" id="ModalsMasterMiage" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Compétences acquises</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <small>
+              <p><b>Les principales compétences tirées durant le master MIAGE : <br> <br>
+               
+                <ul>
+                  <li> Maîtriser la gestion de projet informatique (cycle en V et méthode agile)</li><br>
+                  <li>Maîtriser la conception et le développement d'applications d'entreprises</li><br>
+                  <li>Connaître les mécanismes de la gestion d'une entreprise</li><br>
+                </ul>
+  
+                <a href="https://www.u-picardie.fr/catalogue-formations/FI/co/master-miage.html" target="_blank">Consulter le programme du Master MIAGE</a> <br><br>
+              </small>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  
+      <!-- Licence informatique -->
+      <div class="modal fade" id="ModalsLicenceInfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Compétences acquises</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <small>
+                <p><b>Les principales compétences tirées durant la licence informatique : <br> <br>
+  
+                  <ul>
+                    <li>Concevoir et développer des logiciels</li><br>
+                    <li>Concevoir et développer des applications Web et des services Web</li><br>
+                    <li>Administrer des systèmes d’exploitation et des réseaux et leur sécurité sous Linux</li><br>
+                    <li>Concevoir et développer des systèmes d’information (bases de données)</li><br>
+                  </ul>
+  
+                  <a href="https://www.univ-littoral.fr/formation/offre-de-formation/licences/licence-informatique/" target="_blank">Consulter le programme de la licence informatique</a> <br><br>
+                </b></p>
+              </small>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- ******************************* Fin des modals pour les compétences tirées des formations ******************************* -->
+  
+
+
+
+
+
+
+
+
+
+
+                                        <!-- Modal details "ETL Talend" -->
+    <div class="modal fade" id="modalDetail2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">   
+            <h5 class="modal-title" id="exampleModalLongTitle"><b>Détails</b></h5>  
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            <small><p><b>
+              <b>Objectifs : </b>
+                <p>Comprendre et appréhender la programmation visuelle avec TALEND.</p>
+  
+                <br>
+                Les éléments abordés dans cette formation : <br><br>
+                <ul>
+                    <li>Mise en place des jobs selon un business model</li> <br>
+                    <li>Utilisation des fichiers de données</li> <br>
+                    <li>Utilisation des contextes et variables</li> <br>
+                    <li>Connexion aux bases de données</li> <br>
+                    <li>Mapping de données</li> <br>
+                    <li>Import/Export/Construction/Orchestration des jobs</li> <br>
+                    <li>Talend pour ESB</li> <br>
+                </ul>
+                <a href="https://www.udemy.com/course/talend-etl-bi-francais-debutant-a-la-maitrise/" target="_blank">Lien E-learning</a> <br><br>
+            </b></p></small>
+            </div>
+  
+            <div class="modal-footer">
+                <div class="mx-auto">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal"><b>Fermer</b></button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+                                        <!-- Fin du Modal details "ETL Talend" -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+    
+</body>
+</html>

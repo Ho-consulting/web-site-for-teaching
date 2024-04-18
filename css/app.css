@@ -1,0 +1,47 @@
+.zone_grey {
+    background-color: #f4f4f4;
+    height: 100%;
+}
+
+.avatar_img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.user__infos {
+    text-align: left;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a :hover {
+    text-decoration: underline;
+}
+
+.font-secondary-bold {
+    color: #5C6170;
+    font-weight: bold;
+}
+
+.font-blue-bold {
+    color: blue;
+    font-weight: bold;
+}
+
+.logo_tech {
+    width: 75px;
+    height: 65px;
+}
+
+.vertical-line{
+    border-left: 2px solid #5C6170;
+    display: inline-block;
+    height: 270px;
+    color: #5C6170;
+    
+  }
+
